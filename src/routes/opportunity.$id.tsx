@@ -2,7 +2,7 @@ import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { Bookmark, ExternalLink, Bell, ChevronRight } from "lucide-react";
 import { SiteNav } from "@/components/site-nav";
 import { SiteFooter } from "@/components/site-footer";
-import { getOpportunity, opportunities, typeMeta } from "@/lib/opportunities";
+import { getOpportunity, opportunities, typeMeta, type Opportunity } from "@/lib/opportunities";
 
 export const Route = createFileRoute("/opportunity/$id")({
   loader: ({ params }) => {
