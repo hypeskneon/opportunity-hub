@@ -22,7 +22,7 @@ export const Route = createFileRoute("/opportunity/$id")({
 });
 
 function Detail() {
-  const { opportunity: o } = Route.useLoaderData();
+  const { opportunity: o } = Route.useLoaderData() as { opportunity: Opportunity };
   const meta = typeMeta[o.type];
   const similar = opportunities.filter((x) => x.id !== o.id && x.type === o.type).slice(0, 3);
 
