@@ -10,7 +10,7 @@ export function SiteNav({ variant = "candidate" }: Props) {
       <div className="max-w-[1200px] mx-auto px-6 h-full flex items-center justify-between gap-6">
         <div className="flex items-center gap-10 min-w-0">
           <Link to="/" className="text-xl font-semibold tracking-tight text-brand shrink-0">
-            Vantage
+            Rovelio
           </Link>
           {variant === "candidate" ? (
             <div className="hidden md:flex items-center gap-6">

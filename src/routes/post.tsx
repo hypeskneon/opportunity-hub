@@ -24,7 +24,7 @@ function Post() {
               Post your opportunity in minutes and get in front of a focused audience actively looking for internships, hackathons, and career-building experiences.
             </p>
             <div className="flex flex-wrap items-center gap-4">
-              <Link to="/create-listing" className="bg-brand text-brand-foreground py-3 px-5 rounded-xl font-medium text-sm inline-flex items-center gap-2 hover:bg-brand/90">
+              <Link to="/create-listing" search={{ plan: "featured" }} className="bg-brand text-brand-foreground py-3 px-5 rounded-xl font-medium text-sm inline-flex items-center gap-2 hover:bg-brand/90">
                 Post an Opportunity <ArrowRight className="size-4" />
               </Link>
               <Link to="/pricing" className="py-3 px-5 rounded-xl font-medium text-sm ring-1 ring-hairline hover:bg-secondary">
@@ -128,7 +128,7 @@ function Post() {
             <div key={p.name} className={`p-6 rounded-2xl ${p.popular ? "bg-background text-foreground ring-4 ring-brand-accent/40" : "bg-background/10 ring-1 ring-background/20"}`}>
               <div className="text-sm font-medium mb-2">{p.name}</div>
               <div className="text-3xl font-semibold mb-6">{p.price}</div>
-              <Link to="/create-listing" className={`block text-center py-3 rounded-xl text-sm font-medium ${p.popular ? "bg-brand text-brand-foreground" : "bg-background/10 hover:bg-background/20"}`}>
+              <Link to="/create-listing" search={{ plan: p.name.toLowerCase() }} className={`block text-center py-3 rounded-xl text-sm font-medium ${p.popular ? "bg-brand text-brand-foreground" : "bg-background/10 hover:bg-background/20"}`}>
                 {p.cta}
               </Link>
             </div>

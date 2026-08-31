@@ -49,7 +49,7 @@ function Checkout() {
 
             <div className="mt-8 flex items-start gap-3 text-xs text-muted-foreground bg-surface/50 rounded-xl p-4">
               <ShieldCheck className="size-4 text-brand-accent shrink-0 mt-0.5" />
-              <div>Payments are processed securely. Vantage never stores your card details. Powered by Razorpay.</div>
+              <div>Payments are processed securely. Rovelio never stores your card details. Powered by Razorpay.</div>
             </div>
 
             <div className="flex items-center justify-between mt-8">
