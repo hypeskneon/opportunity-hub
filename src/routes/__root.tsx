@@ -71,9 +71,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Vantage — Internships, hackathons, and challenges for early-career talent" },
+      { title: "Rovelio — Internships, hackathons, and challenges for early-career talent" },
       { name: "description", content: "Discover curated internships, hackathons, case competitions, and challenges. Track applications and never miss a deadline." },
-      { property: "og:title", content: "Vantage — The opportunity platform for early-career talent" },
+      { property: "og:title", content: "Rovelio — The opportunity platform for early-career talent" },
       { property: "og:description", content: "Discover curated internships, hackathons, case competitions, and challenges." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

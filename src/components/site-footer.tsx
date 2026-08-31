@@ -5,7 +5,7 @@ export function SiteFooter() {
     <footer className="py-20 bg-background border-t border-hairline">
       <div className="max-w-[1200px] mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="md:col-span-1">
-          <div className="text-xl font-semibold tracking-tight text-brand mb-4">Vantage</div>
+          <div className="text-xl font-semibold tracking-tight text-brand mb-4">Rovelio</div>
           <p className="text-sm text-muted-foreground leading-relaxed max-w-xs">
             A curated opportunities platform for students and early-career candidates.
           </p>
@@ -38,7 +38,7 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="max-w-[1200px] mx-auto px-6 pt-12 mt-12 border-t border-hairline text-[11px] text-muted-foreground uppercase tracking-wide">
-        © 2025 Vantage Opportunity Platform
+        © 2025 Rovelio Opportunity Platform
       </div>
     </footer>
   );

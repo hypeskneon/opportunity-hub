@@ -28,7 +28,7 @@ function Profile() {
         <Card title="Your profile">
           <div className="grid md:grid-cols-2 gap-4">
             <Field label="Full name" defaultValue="Aarav Mehta" />
-            <Field label="Email" defaultValue="aarav@vantage.dev" />
+            <Field label="Email" defaultValue="aarav@rovelio.dev" />
             <Field label="College / profession" defaultValue="IIT Bombay" />
             <Field label="Graduation year" defaultValue="2026" />
             <Field label="Location (optional)" defaultValue="Mumbai" />
