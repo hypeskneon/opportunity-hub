@@ -44,7 +44,7 @@ function Employer() {
               <h1 className="text-3xl font-semibold tracking-tight">Overview</h1>
               <p className="text-muted-foreground text-sm mt-1">Welcome back, Nexus Fintech</p>
             </div>
-            <Link to="/create-listing" className="inline-flex items-center gap-2 bg-brand text-brand-foreground py-2.5 px-4 rounded-xl text-sm font-medium hover:bg-brand/90">
+            <Link to="/create-listing" search={{ plan: "featured" }} className="inline-flex items-center gap-2 bg-brand text-brand-foreground py-2.5 px-4 rounded-xl text-sm font-medium hover:bg-brand/90">
               <Plus className="size-4" /> Create New Listing
             </Link>
           </div>
